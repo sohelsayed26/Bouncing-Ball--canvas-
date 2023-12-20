@@ -1,0 +1,44 @@
+body {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+canvas {
+  border: 1px solid #000;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+}
+
+#resetButton{
+  border-radius: 10px;
+  position: relative;
+  top:17px;
+  margin-left:47%;
+}
+
+.sliderange{
+  padding: 4px;
+  font-size: 25px;
+  top: 390px;
+  margin-left: 37%;
+  position: absolute;
+  font-weight: 600;
+}
+
+.instruct{
+  border: 1px solid black;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 3px;
+  position: absolute;
+  left: 2%;
+  top: 7%;
+}
+
+input[type="range"]{
+  width:250px;
+}
+
